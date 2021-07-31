@@ -566,6 +566,10 @@ body {
     .author-wrapper {
         width: 325px;
     }
+    .button-group-2 {
+        display: grid;
+        justify-items: start;
+    }
     .reclama-img {
         margin-top: 25px;
         
@@ -581,7 +585,7 @@ body {
 
 @media(max-width:576px) {
     .single-search-panel {
-        width: 105%
+        min-width: 105%
     }
     .container {
         
